@@ -14,7 +14,7 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               <div className="p-2 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl">
                 <Search className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-slate-900">asap ai</span>
+              <span className="text-xl font-bold text-slate-900">Clarifyne</span>
             </div>
             <button
               onClick={onGetStarted}
@@ -35,10 +35,10 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               "Perplexity meets Google" for your organization
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-              Search Your Company info
+              Search Your Company
               <br />
               <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                Knowledge Instantly, in seconds
+                Knowledge Instantly <br/>in seconds
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-600 mb-10 leading-relaxed">
@@ -255,10 +255,10 @@ export function LandingPage({ onGetStarted }: LandingPageProps) {
               <div className="p-2 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl">
                 <Search className="w-5 h-5 text-white" />
               </div>
-              <span className="text-lg font-bold">asap ai</span>
+              <span className="text-lg font-bold">Clarifyne</span>
             </div>
             <p className="text-slate-400 text-sm">
-              © 2025 asap ai. All rights reserved.
+              © 2025 Clarifyne. All rights reserved.
             </p>
           </div>
         </div>
